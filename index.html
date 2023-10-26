@@ -1,0 +1,32 @@
+<script src="https://accounts.google.com/gsi/client" async></script>
+<script src="https://apis.google.com/js/api.js"></script>
+<script src="/bigquery.js" data-client-id="" data-api-key="" data-project-id=""></script>
+<style>
+    .bigquery-wrapper {
+        display: grid;
+        grid-template-areas:
+            "pre button"
+            "div div";
+        grid-template-columns: auto 80px;
+    }
+
+    .bigquery-wrapper pre {
+        border: 1px solid rgb(101, 137, 213);
+        border-right: 0;
+        margin: 0;
+        padding: 10px;
+    }
+
+    .bigquery-wrapper button {
+        border: 1px solid rgb(51, 103, 214);
+        border: 1px solid rgb(101, 137, 213);
+        background-color: rgb(51, 103, 214);
+        color: white;
+        font-family: Roboto, "Helvetica Neue", sans-serif;
+        font-size: 16px;
+    }
+</style>
+
+<pre class="bigquery">
+SELECT 1
+</pre>
